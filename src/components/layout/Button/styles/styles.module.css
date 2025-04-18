@@ -1,0 +1,24 @@
+.button {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: fit-content;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+}
+.button:hover {
+    scale: 1.09;
+}
+
+.contentImage {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+}

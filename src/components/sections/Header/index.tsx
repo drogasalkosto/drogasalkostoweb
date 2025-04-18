@@ -1,11 +1,12 @@
 "use client";
 import Image from "next/image";
 import style from "./styles/styles.module.css";
-import { montserrat } from "@/app/fonts";
+import { montserrat, roboto } from "@/app/fonts";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Brands from "../Brands";
+import Button from "@/components/layout/Button";
 
 const images = [
   "/assets/foto2.jpeg",
@@ -75,14 +76,20 @@ const Header = () => {
           <h2 className={montserrat.className}>precios competitivos</h2>
           <h2 className={montserrat.className}>Variedad de medicamentos</h2>
 
-          <p>
+          <p className={roboto.className}>
             Drogas Alkosto es tu aliado de confianza para el cuidado de tu salud
             y bienestar. En nuestra farmacia encontrarás una amplia variedad de
             medicamentos de alta calidad, productos de cuidado personal,
             suplementos nutricionales, y artículos de salud, todo a precios
             competitivos.
           </p>
-          <button>Contactar ahora</button>
+          <section style={{ display: "flex", gap: "1rem" }}>
+            <Button content="Contactar ahora" />
+            <Button
+              content="311 6546079
+"
+            />
+          </section>
         </div>
         <div>
           <Brands />
