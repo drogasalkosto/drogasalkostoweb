@@ -1,0 +1,23 @@
+
+
+.containerImage {
+    width: 8rem;
+    height: 8rem;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.containerSectionImage {
+    background-color: red;
+    height: fit-content;
+    position: absolute;
+    display: flex;
+    border-radius: .5rem;
+    overflow: hidden;
+   
+}
