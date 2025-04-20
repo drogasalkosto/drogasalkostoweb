@@ -27,8 +27,8 @@
     align-items: center;
     margin: 0 auto;
     flex-direction: column;
-    justify-content: space-around;
-   
+    justify-content: center;   
+    gap: 1.5rem;
 }
 
 .containerTextHeader {
