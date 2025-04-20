@@ -1,12 +1,11 @@
 .header {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - env(safe-area-inset-top));
     position: relative;
 }
 
 .logoContainer {
     display: flex;
-    height: 12rem;
     align-items: center;
     width: 100%;
     justify-content: center;

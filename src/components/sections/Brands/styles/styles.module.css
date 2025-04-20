@@ -13,7 +13,6 @@
 }
 
 .containerSectionImage {
-    background-color: red;
     height: fit-content;
     position: absolute;
     display: flex;

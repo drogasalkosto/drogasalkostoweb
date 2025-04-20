@@ -1,0 +1,77 @@
+.buttonFilled {
+    border-radius: 100px;
+    border: none;
+    background-color: #0D913B;
+    color: #D6ED61;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    padding: .3rem .3rem .3rem .8rem;
+    transition: all .3s ease-in-out;
+}
+
+.buttonOutlined {
+     border-radius: 100px;
+    color: #D6ED61;
+    border: 3px solid #D6ED61;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    padding: .3rem .3rem .3rem .8rem;
+    transition: all .3s ease-in-out;
+}
+.buttonFilled:hover {
+    background-color: #054d1eb3;
+}
+
+.buttonFilled:active {
+    scale: .95;
+}
+
+.containerImage {
+    width: 2rem;
+    position: relative;
+    height: 2rem;
+    
+}
+
+.wraperImage {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.338);
+    padding: .2rem;
+    border-radius: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wraperImageOutlined {
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wraperIcon {
+    width: 1rem;
+    position: relative;
+    height: 100%;
+    color: #D6ED61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

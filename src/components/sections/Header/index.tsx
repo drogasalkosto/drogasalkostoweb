@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Brands from "../Brands";
-import Button from "@/components/layout/Button";
+import { ButtonFilled, ButtonOutlined } from "@/components/layout/Buttons";
 
 const images = [
   "/assets/foto2.jpeg",
@@ -83,12 +83,9 @@ const Header = () => {
             suplementos nutricionales, y artículos de salud, todo a precios
             competitivos.
           </p>
-          <section style={{ display: "flex", gap: "1rem" }}>
-            <Button content="Contactar" />
-            <Button
-              content="311 6546079
-"
-            />
+          <section style={{ display: "flex", gap: "1rem", width: "100%" }}>
+            <ButtonFilled text="Contactar" url="#" />
+            <ButtonOutlined text="¡Llama ya!" url="#" />
           </section>
         </div>
         <div>
