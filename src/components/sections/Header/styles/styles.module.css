@@ -37,6 +37,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+    gap: .5rem;
 }
 
 .containerTextHeader h2:first-child {
