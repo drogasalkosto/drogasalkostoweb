@@ -1,10 +1,12 @@
 .header {
     width: 100%;
-    height: calc(100vh - env(safe-area-inset-top));
+    height: 100vh;
     position: relative;
+   
 }
 
 .logoContainer {
+    position: sticky;
     height: 5rem;
     display: flex;
     align-items: center;
@@ -21,7 +23,7 @@
 .conatinerHeader {
     display: flex;
     position: relative;
-    height: 100%;
+    height: 100vh;
     width: 90%;
     align-items: center;
     margin: 0 auto;
