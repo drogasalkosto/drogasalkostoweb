@@ -80,4 +80,12 @@
     .button {
      font-size: .9rem;
     }
+    .wraperImageOutlined {
+        width: 2rem;
+        height: 2rem;
+    }
+    .wraperImage {
+        width: 2rem;
+        height: 2rem;
+    }
 }

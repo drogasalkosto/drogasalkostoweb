@@ -147,6 +147,6 @@
 @media screen and (max-width: 1057px) {
     .sectionButtons {
         flex-direction: column;
-        width: 100%;
+        width: 70%;
     }
 }
