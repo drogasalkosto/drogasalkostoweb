@@ -84,7 +84,7 @@ const Header = () => {
             competitivos.
           </p>
           <section style={{ display: "flex", gap: "1rem" }}>
-            <Button content="Contactar ahora" />
+            <Button content="Contactar" />
             <Button
               content="311 6546079
 "

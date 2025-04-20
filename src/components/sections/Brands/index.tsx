@@ -11,6 +11,12 @@ const brandsImages = [
   "/brands/brands1.png",
   "/brands/brands2.png",
   "/brands/brands3.png",
+  "/brands/brands1.png",
+  "/brands/brands2.png",
+  "/brands/brands3.png",
+  "/brands/brands1.png",
+  "/brands/brands2.png",
+  "/brands/brands3.png",
 ];
 
 const Brands = () => {
@@ -24,7 +30,20 @@ const Brands = () => {
         height: "8rem",
         padding: "1rem",
       }}
-      slidesPerView={3}
+      breakpoints={{
+        320: {
+          slidesPerView: 2,
+        },
+        480: {
+          slidesPerView: 3,
+        },
+        768: {
+          slidesPerView: 4,
+        },
+        1024: {
+          slidesPerView: 6,
+        },
+      }}
       loop={true}
       autoplay={{
         delay: 3000,
