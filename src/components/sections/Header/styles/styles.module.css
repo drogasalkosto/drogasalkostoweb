@@ -5,7 +5,7 @@
 }
 
 .logoContainer {
-    height: 12rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     width: 100%;
@@ -13,7 +13,7 @@
 }
 .containerLogoCompleto {
     position: relative;
-    height: 5rem;
+    height: 3rem;
     width: 30%;
     display: flex;
 }
@@ -138,12 +138,14 @@
 
 .sectionButtons {
    display: flex;
-   width: 100%;
+   
    gap: .5rem;
+   width: fit-content;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1057px) {
     .sectionButtons {
         flex-direction: column;
+        width: 100%;
     }
 }

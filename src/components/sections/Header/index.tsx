@@ -77,11 +77,9 @@ const Header = () => {
           <h2 className={montserrat.className}>Variedad de medicamentos</h2>
 
           <p className={roboto.className}>
-            Drogas Alkosto es tu aliado de confianza para el cuidado de tu salud
-            y bienestar. En nuestra farmacia encontrarás una amplia variedad de
-            medicamentos de alta calidad, productos de cuidado personal,
-            suplementos nutricionales, y artículos de salud, todo a precios
-            competitivos.
+            Drogas Alkosto es tu aliado confiable en salud y bienestar, con una
+            amplia oferta de medicamentos, productos de cuidado personal,
+            suplementos y artículos de salud a precios competitivos.
           </p>
           <section className={style.sectionButtons}>
             <ButtonFilled text="Contactar" url="#" />
