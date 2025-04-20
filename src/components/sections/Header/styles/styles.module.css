@@ -28,7 +28,7 @@
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;   
-    gap: 1.5rem;
+ 
 }
 
 .containerTextHeader {
@@ -125,11 +125,11 @@
 
 @media screen and (max-width: 480px) {
     .containerTextHeader h2:first-child {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .containerTextHeader h2 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .containerTextHeader p {
