@@ -5,6 +5,7 @@
 }
 
 .logoContainer {
+    height: 12rem;
     display: flex;
     align-items: center;
     width: 100%;
@@ -132,5 +133,17 @@
 
     .containerTextHeader p {
         font-size: 0.9rem;
+    }
+}
+
+.sectionButtons {
+   display: flex;
+   width: 100%;
+   gap: .5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .sectionButtons {
+        flex-direction: column;
     }
 }

@@ -83,7 +83,7 @@ const Header = () => {
             suplementos nutricionales, y artículos de salud, todo a precios
             competitivos.
           </p>
-          <section style={{ display: "flex", gap: "1rem", width: "100%" }}>
+          <section className={style.sectionButtons}>
             <ButtonFilled text="Contactar" url="#" />
             <ButtonOutlined text="¡Llama ya!" url="#" />
           </section>

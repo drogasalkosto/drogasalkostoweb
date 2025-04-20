@@ -10,7 +10,7 @@ interface buttonProps {
 
 export const ButtonFilled = ({ text, url }: buttonProps) => {
   return (
-    <a href={url} className={styles.buttonFilled}>
+    <a href={url} className={`${styles.buttonFilled} ${styles.button}`}>
       <div className={styles.wraperIcon}>
         <IoLogoWhatsapp />
       </div>
@@ -32,7 +32,7 @@ export const ButtonFilled = ({ text, url }: buttonProps) => {
 
 export const ButtonOutlined = ({ text, url }: buttonProps) => {
   return (
-    <a href={url} className={styles.buttonOutlined}>
+    <a href={url} className={`${styles.buttonOutlined} ${styles.button}`}>
       <div className={styles.wraperIcon}>
         <FaPhone />
       </div>
