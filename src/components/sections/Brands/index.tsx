@@ -8,15 +8,7 @@ const brandsImages = [
   "/brands/brands1.png",
   "/brands/brands2.png",
   "/brands/brands3.png",
-  "/brands/brands1.png",
-  "/brands/brands2.png",
-  "/brands/brands3.png",
-  "/brands/brands1.png",
-  "/brands/brands2.png",
-  "/brands/brands3.png",
-  "/brands/brands1.png",
-  "/brands/brands2.png",
-  "/brands/brands3.png",
+  "/brands/brands4.png",
 ];
 
 const Brands = () => {
@@ -56,7 +48,8 @@ const Brands = () => {
               style={{
                 width: "7rem",
                 height: "7rem",
-                borderRadius: "50%",
+                backgroundColor: "white",
+                padding: ".2rem",
               }}
             >
               <Image

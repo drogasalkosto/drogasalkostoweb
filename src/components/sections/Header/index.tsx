@@ -82,8 +82,11 @@ const Header = () => {
             suplementos y artículos de salud a precios competitivos.
           </p>
           <section className={style.sectionButtons}>
-            <ButtonFilled text="Contactar" url="#" />
-            <ButtonOutlined text="¡Llama ya!" url="#" />
+            <ButtonFilled
+              text="Contactar"
+              url={`https://api.whatsapp.com/send?phone=573116546079`}
+            />
+            <ButtonOutlined text="¡Llama ya!" url="tel:+573116546079" />
           </section>
         </div>
         <div>
